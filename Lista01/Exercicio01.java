@@ -1,3 +1,8 @@
+/*Desenvolva o algoritmo de um programa onde o usuário irá informar um número
+inteiro e o programa deve calcular e exibir o número imediatamente antecessor ao
+número digitado pelo usuário. 
+*/
+
 import java.util.Scanner;
 
 public class Exercicio01 {
