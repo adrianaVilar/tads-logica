@@ -3,10 +3,10 @@
 import java.util.Scanner;
 
 public class Exercicio02 {
-    public static void main(String[] args){
+    public void valorMaisVintePorCento{
 
         float numDigitado, numMaisVintePorCento;
-        final float TAXA_EM_PORCENTAGEM = 15;
+        final float TAXA_EM_PORCENTAGEM = 20;
 
         Scanner scan = new Scanner(System.in);
 

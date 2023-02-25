@@ -10,7 +10,7 @@ F = temperatura em graus Fahrenheit.
 import java.util.Scanner;
 
 public class Exercicio05 {
-    public static void main(String[] args) {
+    public void converterFahrenheintEmCelsius {
 
         float temperaturaCelsius, temperaturaFahrenheit;
 
@@ -20,11 +20,10 @@ public class Exercicio05 {
 
         temperaturaFahrenheit = scan.nextFloat();
 
-        temperaturaCelsius = ((temperaturaFahrenheit - 32) / 9) * 5;
+        temperaturaCelsius = (temperaturaFahrenheit - 32) / 9 * 5;
 
-        System.out.println(temperaturaFahrenheit + " graus Fahrenheit em graus Celsius eh: " + temperaturaCelsius);
+        System.out.printf("%.1f graus Fahrenheit em graus Celsius eh: %.1f\n", temperaturaFahrenheit, temperaturaCelsius);
         
         scan.close();
-
     }
 }
